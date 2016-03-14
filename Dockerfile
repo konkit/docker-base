@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:wily
 MAINTAINER Wurstmeister 
 RUN apt-get update; apt-get install -y unzip openjdk-8-jre-headless wget supervisor docker.io openssh-server
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/
